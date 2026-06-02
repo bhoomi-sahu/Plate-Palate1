@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Button */
+.btn-primary {
+  @apply bg-orange-500 text-white px-6 py-2 rounded-md shadow-md hover:bg-orange-600;
+}
+body {
+  background-color: #f8f8f8;
+}
